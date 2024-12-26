@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: #d7d9da;
+}
+
+.card {
+  margin: 25px;
+  padding: 0;
+  border: 2px solid #e4ecf4;
+  border-radius: 5px;
+  min-height: calc(100vh - 10px);
+  box-sizing: border-box;
+}
+
+.card1 {
+  margin: 25px;
+  padding: 0;
+  min-height: calc(100vh - 10px);
+  box-sizing: border-box;
+}
+
+.card1 h2 {
+  padding-left: 5px;
+  padding-bottom: 8px;
+}
+
+.list {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list button {
+  background-color: rgb(74, 74, 194);
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-items > div {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.list-items .item-left {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+img {
+width: 50px;
+height: 50px;
+object-fit: cover;
+}
+
+.list-items .text {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.list-items .item-right {
+margin-left: auto;
+}
+
+.list-items .coffee h4,
+.list-items .coffee p {
+margin: 0;
+}
+
+.list-items .item-right {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.card1 p {
+text-align: center;
+font-size: 14px;
+color: #555;
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: Arial, sans-serif;
+}

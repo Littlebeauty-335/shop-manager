@@ -1,0 +1,121 @@
+.v-app-bar {
+    background-color: rgb(249, 247, 247) !important;
+    position: relative;
+    z-index: 10;
+    height: 64px;
+}
+
+.v-toolbar-title {
+    color: rgb(39, 39, 103);
+    font-weight: bold;
+}
+
+.v-btn img {
+    height: 25px;
+    width: 25px;
+}
+
+.bell {
+    color: grey;
+}
+
+.profile {
+    color: grey;
+}
+
+.v-main {
+    padding-top: 4px;
+    background-color: #d7d9da;
+}
+
+.v-card-title{
+    color: rgb(39, 39, 103);
+    font-weight: bold;
+}
+
+.addItem{
+    background-color: rgb(65, 65, 247);
+    color: white !important; 
+}
+
+.v-btn.edit {
+    color: rgb(45, 99, 199);
+    background-color: rgb(231, 239, 242);
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+
+.edit img {
+    filter: invert(30%) sepia(80%) saturate(400%) hue-rotate(190deg);
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+
+.v-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(39, 39, 103);
+    font-weight: bold;
+}
+
+.v-chip{
+    border-radius: 10px;
+}
+
+.v-card.recent-orders,.v-card.analytics {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.v-card.recent-orders .v-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.v-card.recent-orders .v-list-item {
+    margin-bottom: 0;
+}
+
+.v-card.analytics {
+    background-color: #fff;
+    height: 100%;
+}
+
+.v-card-title {
+    padding-bottom: 15px;
+}
+
+.v-select{
+    background-color: white !important;
+}
+
+.v-select .v-input__control {
+    background-color: white !important;
+}
+
+.v-select .v-input__label {
+    color: rgb(39, 39, 103);
+}
+
+.v-select .v-input__append-inner .v-icon {
+    color: #39a0ed;
+    margin-left: 8px;
+}
+
+.v-select:focus-within .v-input__control {
+    outline: none;
+}
+
+.v-chip {
+    font-size: 12px;
+}
+
+.v-list-item {
+    border-bottom: 1px solid #e0e0e0;
+}
